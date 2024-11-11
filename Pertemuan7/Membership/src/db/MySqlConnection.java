@@ -12,7 +12,7 @@ import java.sql.DriverManager;
  * @author syrly
  */
 public class MySqlConnection {
-    private final static String DB_URL = "http://localhost:3306/phpmyadmin/index.php?route=/database/structure&db=pp2_membership";
+    private final static String DB_URL = "jdbc:mysql://localhost:3306/pp2_membership";
     private final static String DB_USER = "root";
     private final static String DB_PASS = "";
 
